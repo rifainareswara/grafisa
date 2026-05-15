@@ -1,0 +1,33 @@
+# Claude Code
+.claude/
+
+# Python
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/**/*.pyc
+backend/**/*.pyo
+backend/*.db
+backend/app/*.db
+
+# Environment variables
+.env
+backend/.env
+frontend/.env
+# keep examples
+!**/.env.example
+
+# Node
+frontend/node_modules/
+frontend/.svelte-kit/
+frontend/build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
