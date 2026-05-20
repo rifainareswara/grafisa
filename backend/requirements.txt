@@ -10,3 +10,4 @@ httpx==0.27.2
 midtransclient==1.4.2
 python-dotenv==1.0.1
 aiofiles==24.1.0
+psycopg2-binary==2.9.9
